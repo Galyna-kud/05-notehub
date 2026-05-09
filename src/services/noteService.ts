@@ -14,7 +14,7 @@ interface FetchNotesParams {
 }
 
 axios.defaults.baseURL = "https://notehub-public.goit.study/api";
-const TOKEN = import.meta.env.VITE_NOTES_API_TOKEN;
+const TOKEN = import.meta.env.VITE_NOTEHUB_TOKEN;
 
 export async function fetchNotes({
   page,
